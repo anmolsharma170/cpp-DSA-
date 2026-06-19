@@ -15,7 +15,7 @@ void Union(vector<int> &parent,vector<int> &rank,int a,int b){
     else{
         rank[b]++;
         parent[a]=b;
-    }
+    } 
 }
 int main(){
     int n,m;
@@ -24,7 +24,7 @@ int main(){
     vector<int> rank(n+1,0);
     for(int i = 0;i<=n;i++){
         parent[i]=i;
-    }
+    } 
     while(m--){
         string str;
         cin>>str;
