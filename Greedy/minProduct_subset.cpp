@@ -11,7 +11,7 @@ int minProduct(vector<int> &arr){
             largest_neg=max(largest_neg,arr[i]);
         }
         if(arr[i]==0) cz++;
-        if(arr[i]>0){
+        if(arr[i]>0){ 
             cp++;
             prod_pos*=arr[i];
         }
