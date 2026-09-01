@@ -11,7 +11,7 @@ vector<int> get_digits(int n){
     }
     return res;
 }
-vector<int> dp(10000006,0);
+vector<int> dp(1000006,0);
 int func(int n){
     if(n==0) return 0;
     if(n<=9) return 1;
